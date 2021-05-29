@@ -1,0 +1,36 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a id="logo" class="navbar-brand" href="./index.php"> <i class="fas fa-book-open" id="logo_icon"></i> 北科來</a>
+
+        <input id="search" class="form-control mr-sm-1 ml-auto" type="search" placeholder="搜尋書籍" aria-label="Search">
+        <button id="search_btn" class="btn my-2 my-sm-0" type="button" onclick="location.href='./searchList.php'"><i class="fas fa-search"></i></button>
+
+        <ul class="navbar-nav  ml-auto">
+            <?php
+                if(isset($_SESSION['user']))
+                {
+                    echo "<li class='nav-item'>";
+                    echo "<a class='nav-link' href='' id='check_out_nav_item'><i class='fas fa-shopping-cart'></i> 0 結帳</a>";
+                    echo "</li>";
+                    echo "<li class='nav-item'>";
+                    echo "<a class='nav-link' href=''>".$_SESSION['user']."</a>";
+                    echo "</li>";
+                    echo "<li class='nav-item'>";
+                    echo "<a class='nav-link' href='./Controller/logout.php'>登出</a>";
+                    echo "</li>";
+                    
+                }
+                else
+                {
+                    echo "<li class='nav-item'>";
+                    echo "<a class='nav-link' href='./login.php'>登入</a>";
+                    echo "</li>";
+                    echo "<li class='nav-item'>";
+                    echo "<a class='nav-link' href='./register.php' id='register_nav_item'>註冊</a>";
+                    echo "</li>";
+                }
+            ?>     
+            <!--<li class="nav-item">
+                <a class="nav-link" href='<?php //if(isset($_SESSION['user'])) {"./login.php";} else {"";}?>'>會員專區</a>
+            </li> -->  
+        </ul>
+    </nav>

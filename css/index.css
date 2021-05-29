@@ -1,0 +1,258 @@
+.image-100{
+    height: calc(100vh - 58px);
+}
+
+#offset{
+    height: 56px;
+    position: absolute;
+    top: 0;
+}
+
+body { padding-bottom: 70px; }
+
+footer{
+    text-align: center;
+    background-color: #ECECEC;
+    height:40px;
+}
+
+#logo{
+    margin-right: 150px;
+}
+
+#search{
+  width: 1100px; 
+}
+
+.navbar-custom .navbar-text {
+  color:red;
+}
+
+#check_out_nav_item {
+  color:#B00000;
+
+  
+ }
+
+#check_out_nav_item:hover{
+  color:red;
+}
+
+#register_nav_item{
+  color:#00b0B0;
+}
+
+#register_nav_item:hover{
+  color:#00d0d0;
+}
+
+#search_btn{
+  color: white;
+  background-color: #94C722;
+}
+
+#search_btn:hover{
+  color: white;
+  background-color: #84B712;
+}
+
+.hot_list{
+  background: rgb(245, 245, 245);
+}
+
+
+.active{
+  background: white;
+}
+
+.hot_list_text{
+  color: black;
+}
+
+.hot_list_text:hover{
+  color: black;
+  text-decoration: none;
+}
+
+#book_category_bg{
+  border-radius: 8px;
+  background: rgb(250, 250, 250);
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+}
+
+#hot_list_bg{
+  background: rgb(245, 245, 245);
+}
+
+#hot_list_topic{
+  background: white;
+}
+
+a.link_disable {
+  pointer-events: none;
+  cursor: default;
+}
+
+.book_category{
+  color: black;
+}
+
+.book_category:hover{
+  color: black;
+}
+
+.hot_list_book_name_a{
+  color: rgb(56, 56, 56);
+}
+
+.hot_list_book_content{
+  color: rgb(109, 109, 109);
+}
+
+.hot_list_book_name_a:hover{
+  color:rgb(218, 149, 22);
+}
+
+.book_name_a{
+  color: black;
+}
+
+.book_name_a:hover{
+  color:rgb(218, 149, 22);
+}
+
+.orange_text{
+  color: rgb(218, 149, 22);
+}
+
+.border-hot-list{
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-top-color: gray;
+}
+
+.nav-linked{
+  display: inline-block;
+  color:rgb(219, 25, 25);
+  margin-left: 5px;
+
+}
+
+@media screen and (max-width: 769px){
+    #search{
+      width:80%;
+    }
+  }
+
+  @media screen and (max-width: 376px){
+    #search{
+      width:70%;
+    }
+  }
+
+
+.carousel-inner{
+  background-color: #ECECEC;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  background-size: 50%,50%;
+  border-radius:50%;
+  outline: black;
+  background-color: black;
+  
+}
+
+.container{
+  margin-top: 30px;
+}
+
+.card{
+  margin-bottom: 30px;
+}
+
+
+.btn btn-success{
+  align-self: baseline;
+}
+
+thead.top-thead {
+  background-color: rgb(247, 247, 247);
+  color: black;
+} 
+
+thead.bottom-thead {
+  background-color: rgb(236, 236, 236);
+  color: black;
+} 
+
+.table td, .table th{
+  border-color: black;
+}
+
+.table tr > th.th-text-left{
+  border-right: none;
+}
+
+.table tr > th.th-text-right{
+  border-left: none;
+}
+
+.table tr > th.th-middle{
+  border-left: none;
+}
+
+table.table-bordered > thead.bottom-thead > tr > th{
+  border-bottom:3px solid rgb(77, 77, 77);
+}
+
+table.table-bordered > thead.top-thead > tr > th{
+  border-bottom:none;
+}
+
+
+.table td, .table th {
+  text-align: center;   
+  vertical-align: middle;
+}
+
+.table td, .table th.th-text-left {
+  text-align: left;   
+}
+
+.table td, .table th.th-text-right {
+  text-align: right;   
+}
+
+.order_number{
+  color: rgb(104, 104, 104);
+}
+
+.table{
+  word-break:break-all;
+  word-wrap:break-all;
+}
+
+.tfoot-color{
+  background-color: rgb(236, 236, 236);
+  color: black;
+}
+
+.tfoot-color td{
+  border-top: 3px solid rgb(77, 77, 77);
+  border-bottom: none;
+  background-color: rgb(236, 236, 236);
+  color: black;
+}
+
+.tfoot-color-bottom{
+  background-color: rgb(236, 236, 236);
+  color: black;
+}
+
